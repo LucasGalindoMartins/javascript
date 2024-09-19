@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País (Condição)</title>
+</head>
+<body>
+    <h1>Qual país você mora?</h1>
+    Digite o pais onde você reside: <input type="text" name="txtpais" id="txtpais">
+
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar()
+        {
+            var txtpais = window.document.getElementById('txtpais')
+            var res = window.document.getElementById('res')
+            var pais = String(txtpais.value)
+
+            if(pais == 'Brasil')
+            {
+                res.innerHTML = "<p>Você é <strong>BRASILEIRO<strong><p>"
+            }
+
+            else
+            {
+                res.innerHTML = `<p>Você é <strong>ESTRANGEIRO<strong><p>`
+            }
+        }
+    </script>
+</body>
+</html>
