@@ -8,16 +8,21 @@
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
 
     <section>
-        <div>
-            
+        <div id="number">
+            <label for="inum">Número: </label>
+            <input type="number" name="num" id="inum">
+
+            <input type="button" value="Gerar Tabuada" onclick="gerar()">
         </div>
 
-        <div>
-
+        <div id="tabuada">
+            <p>
+                Sua tabuada aparecerá aqui...
+            </p>
         </div>
 
     </section>
