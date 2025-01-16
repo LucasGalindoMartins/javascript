@@ -42,6 +42,27 @@ section
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
 }
 
+input[type=button]
+{
+    display: block;
+
+    background-color: white;
+    border: 2px solid rgba(0, 0, 255, 0.712);
+    color: rgba(0, 0, 255, 0.712);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 1em;
+
+    transition-duration: 0.4s;
+}
+
+input[type=button]:hover
+{
+    background-color: rgba(0, 125, 241, 0.712);
+    color: white;
+}
+
 #res
 {
     text-align: center;
