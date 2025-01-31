@@ -3,7 +3,7 @@ let amigo =
     nome: "José", 
     sexo:"M", 
     peso: 85.4,
-    engordar(p=0)
+    engordar(p)
     {
         if(p > 0)
         {
@@ -24,5 +24,5 @@ let amigo =
     }
 }
 
-amigo.engordar(4)
-console.log(`${amigo.nome} pesa ${amigo.peso}Kg agora`)
+amigo.engordar(-4)
+console.log(`${amigo.nome} pesa ${amigo.peso}Kg agora.`)

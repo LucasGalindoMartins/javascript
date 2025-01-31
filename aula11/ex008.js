@@ -1,5 +1,5 @@
 var vel = 77
-console.log(`A velocida(de do seu carro é ${vel}km/h`)
+console.log(`A velocidade do seu carro é ${vel}km/h`)
 
 if(vel > 60) //Condição simples
 {
